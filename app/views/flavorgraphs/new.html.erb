@@ -1,0 +1,17 @@
+<h1>New Flavor Graph</h1>
+
+<%= form_for :flavorgraph do |f| %>
+  <p>
+    <%= f.label :flavor %><br>
+    <%= f.text_field :flavor %>
+  </p>
+
+  <p>
+    <%= f.label :depth %><br>
+    <%= f.text_field :depth %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
