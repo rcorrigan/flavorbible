@@ -1,0 +1,14 @@
+%h1 Create New Flavor Graph
+
+= form_tag flavorgraphs_path do
+
+  = label :flavor, :name, 'Flavor'
+  %br
+  = text_field :flavor, 'flavor'
+  %br
+  = label :flavor, :depth, 'Depth'
+  %br
+  = text_field :flavor, 'depth'
+  %br
+  %br  
+  = submit_tag 'Create New Flavor Graph'
