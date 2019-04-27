@@ -1,5 +1,6 @@
 class Ingredient 
   include Neo4j::ActiveNode
-  property :id, type: String
+
+  id_property :id
 
 end
