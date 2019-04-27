@@ -8,6 +8,8 @@ class FlavorgraphsController < ApplicationController
   end
 
   def create
+    @query_ingredient = Ingredient.find("chicken")
+    @connected_ingredients = @query_ingredient
     redirect_to flavorgraphs_path
   end
 end
