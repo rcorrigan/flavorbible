@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31aa3e31-5673-4b50-8b97-086d0e7118ac" name="Default Changelist" comment="the model is closer to being functional now!">
-      <change afterPath="$PROJECT_DIR$/db/neo4j/migrate/20190427194508_force_create_ingredient_id_constraint.rb" afterDir="false" />
+    <list default="true" id="31aa3e31-5673-4b50-8b97-086d0e7118ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/ingredients_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ingredients_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/ingredient.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ingredient.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/ingredient.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="105">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -407,7 +405,7 @@
       <workItem from="1556377831240" duration="3629000" />
       <workItem from="1556381932985" duration="131000" />
       <workItem from="1556382110698" duration="2778000" />
-      <workItem from="1556386664124" duration="9195000" />
+      <workItem from="1556386664124" duration="9220000" />
     </task>
     <task id="LOCAL-00001" summary="cypher code for calculating shared neighbors metric">
       <created>1556383101437</created>
@@ -458,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556395043909</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="the model is closer to being functional now!">
+      <created>1556397023806</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556397023806</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25180000" />
+    <option name="totallyTimeSpent" value="25205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -503,7 +508,8 @@
     <MESSAGE value="a couple more things that may be broken" />
     <MESSAGE value="this may be less borken?" />
     <MESSAGE value="the model actually works somewhat now" />
-    <option name="LAST_COMMIT_MESSAGE" value="the model actually works somewhat now" />
+    <MESSAGE value="the model is closer to being functional now!" />
+    <option name="LAST_COMMIT_MESSAGE" value="the model is closer to being functional now!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/flavorbible@Development__flavorbible.rcov" NAME="Development: flavorbible Coverage Results" MODIFIED="1556396474883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="flavorbible" />
@@ -639,8 +645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/ingredient.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
