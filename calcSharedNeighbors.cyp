@@ -1,5 +1,5 @@
 MATCH (n:Ingredient) WITH collect(n.id) as ings // lists ingredients, collects them into a list
-UNWIND ings AS ing // this is the foreach thing
+UNWIND ings AS ing // this is the foreach, unwinding the ings list into individual ingredients
 MATCH (source)-[con]-(target)
   WHERE source.id=ing // match all edges connected to each node
 WITH source, con, target // pass these to the scope of the next match

@@ -6,13 +6,13 @@
         <option name="dataSources">
           <list>
             <DataSourceV1>
-              <option name="uuid" value="5f161190-5281-4528-935a-8f66d0d859fd" />
-              <option name="name" value="graph.db" />
+              <option name="uuid" value="0f7c2389-e62e-460b-b443-92b479be1772" />
+              <option name="name" value="FlavorBase" />
               <option name="dataSourceType" value="NEO4J_BOLT" />
               <option name="configuration">
                 <map>
                   <entry key="host" value="localhost" />
-                  <entry key="password" value="flavorbible" />
+                  <entry key="password" value="military" />
                   <entry key="port" value="7687" />
                   <entry key="user" value="neo4j" />
                 </map>
