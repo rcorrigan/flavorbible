@@ -10,6 +10,7 @@ class IngredientsController < ApplicationController
   # GET /ingredients/1
   # GET /ingredients/1.json
   def show
+    @neighbors = Ingredient.associations
   end
 
   # GET /ingredients/new
