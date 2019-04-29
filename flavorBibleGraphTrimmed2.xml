@@ -1313,7 +1313,6 @@
     <node id="miso and miso soup" />
     <node id="fish: cod" />
     <node id="popcorn" />
-    <node id="monkfish " />
     <node id="caperberries" />
     <node id="striped bass" />
     <node id="swiss chard" />
@@ -4417,7 +4416,7 @@
     <edge source="garlic" target="miso and miso soup">
       <data key="d0">1</data>
     </edge>
-    <edge source="garlic" target="monkfish ">
+    <edge source="garlic" target="monkfish">
       <data key="d0">20</data>
     </edge>
     <edge source="garlic" target="mushrooms, in general ">
@@ -6625,7 +6624,7 @@
     <edge source="cardamom" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="cardamom" target="monkfish ">
+    <edge source="cardamom" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="cardamom" target="nutmeg">
@@ -7171,7 +7170,7 @@
     <edge source="cinnamon" target="molasses">
       <data key="d0">1</data>
     </edge>
-    <edge source="cinnamon" target="monkfish ">
+    <edge source="cinnamon" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="cinnamon" target="nectarines ">
@@ -8200,7 +8199,7 @@
     <edge source="coriander" target="mahi mahi">
       <data key="d0">1</data>
     </edge>
-    <edge source="coriander" target="monkfish ">
+    <edge source="coriander" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="coriander" target="mushrooms, in general ">
@@ -8779,7 +8778,7 @@
     <edge source="cumin" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="cumin" target="monkfish ">
+    <edge source="cumin" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="cumin" target="mushrooms, in general ">
@@ -9685,7 +9684,7 @@
     <edge source="fennel" target="melon/ muskmelons, in general ">
       <data key="d0">1</data>
     </edge>
-    <edge source="fennel" target="monkfish ">
+    <edge source="fennel" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="fennel" target="mushrooms, in general ">
@@ -10594,7 +10593,7 @@
     <edge source="ginger" target="miso and miso soup">
       <data key="d0">1</data>
     </edge>
-    <edge source="ginger" target="monkfish ">
+    <edge source="ginger" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="ginger" target="mushrooms, in general ">
@@ -12022,7 +12021,7 @@
     <edge source="mushrooms" target="miso and miso soup">
       <data key="d0">1</data>
     </edge>
-    <edge source="mushrooms" target="monkfish ">
+    <edge source="mushrooms" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="mushrooms" target="mushrooms, matsutake">
@@ -13336,7 +13335,7 @@
     <edge source="turmeric" target="lentils">
       <data key="d0">1</data>
     </edge>
-    <edge source="turmeric" target="monkfish ">
+    <edge source="turmeric" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="turmeric" target="moroccan cuisine">
@@ -14860,7 +14859,7 @@
     <edge source="chile peppers" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="chile peppers" target="monkfish ">
+    <edge source="chile peppers" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="chile peppers" target="moroccan cuisine">
@@ -16288,7 +16287,7 @@
     <edge source="onions" target="mint, dried">
       <data key="d0">1</data>
     </edge>
-    <edge source="onions" target="monkfish ">
+    <edge source="onions" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="onions" target="moroccan cuisine">
@@ -18142,7 +18141,7 @@
     <edge source="tomatoes" target="mint, dried">
       <data key="d0">1</data>
     </edge>
-    <edge source="tomatoes" target="monkfish ">
+    <edge source="tomatoes" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="tomatoes" target="moroccan cuisine">
@@ -18838,7 +18837,7 @@
     <edge source="couscous" target="lamb, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="couscous" target="monkfish ">
+    <edge source="couscous" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="couscous" target="north african cuisine ">
@@ -19717,7 +19716,7 @@
     <edge source="parsley" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="parsley" target="monkfish ">
+    <edge source="parsley" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="parsley" target="mushrooms, in general ">
@@ -20311,7 +20310,7 @@
     <edge source="beans" target="molasses">
       <data key="d0">5</data>
     </edge>
-    <edge source="beans" target="monkfish ">
+    <edge source="beans" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="beans" target="olive oil">
@@ -20761,7 +20760,7 @@
     <edge source="carrots" target="mint, peppermint">
       <data key="d0">1</data>
     </edge>
-    <edge source="carrots" target="monkfish ">
+    <edge source="carrots" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="carrots" target="mushrooms, in general ">
@@ -24817,7 +24816,7 @@
     <edge source="rosemary" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="rosemary" target="monkfish ">
+    <edge source="rosemary" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="rosemary" target="mushrooms, in general ">
@@ -25450,7 +25449,7 @@
     <edge source="spinach" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="spinach" target="monkfish ">
+    <edge source="spinach" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="spinach" target="mushrooms, in general ">
@@ -25969,7 +25968,7 @@
     <edge source="thyme" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="thyme" target="monkfish ">
+    <edge source="thyme" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="thyme" target="mushrooms, in general ">
@@ -27283,7 +27282,7 @@
     <edge source="apples" target="mint, peppermint">
       <data key="d0">1</data>
     </edge>
-    <edge source="apples" target="monkfish ">
+    <edge source="apples" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="apples" target="oatmeal / oats">
@@ -27538,7 +27537,7 @@
     <edge source="apricots" target="melon/ muskmelons, in general ">
       <data key="d0">1</data>
     </edge>
-    <edge source="apricots" target="monkfish ">
+    <edge source="apricots" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="apricots" target="moroccan cuisine">
@@ -27847,7 +27846,7 @@
     <edge source="brandy" target="mascarpone">
       <data key="d0">1</data>
     </edge>
-    <edge source="brandy" target="monkfish ">
+    <edge source="brandy" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="brandy" target="mushrooms, porcini / cepes / king bolete">
@@ -28777,7 +28776,7 @@
     <edge source="cayenne" target="lobster">
       <data key="d0">5</data>
     </edge>
-    <edge source="cayenne" target="monkfish ">
+    <edge source="cayenne" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="cayenne" target="mushrooms, in general ">
@@ -30160,7 +30159,7 @@
     <edge source="cream" target="molasses">
       <data key="d0">1</data>
     </edge>
-    <edge source="cream" target="monkfish ">
+    <edge source="cream" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="cream" target="mushrooms, in general ">
@@ -32251,7 +32250,7 @@
     <edge source="mediterranean cuisine" target="mint, peppermint">
       <data key="d0">1</data>
     </edge>
-    <edge source="mediterranean cuisine" target="monkfish ">
+    <edge source="mediterranean cuisine" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="mediterranean cuisine" target="mussels">
@@ -33043,7 +33042,7 @@
     <edge source="olive oil" target="mint, dried">
       <data key="d0">1</data>
     </edge>
-    <edge source="olive oil" target="monkfish ">
+    <edge source="olive oil" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="olive oil" target="mushrooms, in general ">
@@ -33520,7 +33519,7 @@
     <edge source="olives" target="mint, dried">
       <data key="d0">1</data>
     </edge>
-    <edge source="olives" target="monkfish ">
+    <edge source="olives" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="olives" target="mussels">
@@ -33787,7 +33786,7 @@
     <edge source="paprika" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="paprika" target="monkfish ">
+    <edge source="paprika" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="paprika" target="mushrooms, in general ">
@@ -34885,7 +34884,7 @@
     <edge source="pine nuts" target="lemons">
       <data key="d0">1</data>
     </edge>
-    <edge source="pine nuts" target="monkfish ">
+    <edge source="pine nuts" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="pine nuts" target="mushrooms, in general ">
@@ -36172,7 +36171,7 @@
     <edge source="sherry" target="liver, chicken">
       <data key="d0">1</data>
     </edge>
-    <edge source="sherry" target="monkfish ">
+    <edge source="sherry" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="sherry" target="mushrooms, in general ">
@@ -37057,7 +37056,7 @@
     <edge source="walnuts" target="miso and miso soup">
       <data key="d0">1</data>
     </edge>
-    <edge source="walnuts" target="monkfish ">
+    <edge source="walnuts" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="walnuts" target="mushrooms, in general ">
@@ -38131,7 +38130,7 @@
     <edge source="basil" target="mint, in general">
       <data key="d0">5</data>
     </edge>
-    <edge source="basil" target="monkfish ">
+    <edge source="basil" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="basil" target="mushrooms, in general ">
@@ -38464,7 +38463,7 @@
     <edge source="capers" target="mackerel">
       <data key="d0">1</data>
     </edge>
-    <edge source="capers" target="monkfish ">
+    <edge source="capers" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="capers" target="mushrooms, in general ">
@@ -38875,7 +38874,7 @@
     <edge source="celery" target="lobster">
       <data key="d0">5</data>
     </edge>
-    <edge source="celery" target="monkfish ">
+    <edge source="celery" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="celery" target="mushrooms, in general ">
@@ -39199,7 +39198,7 @@
     <edge source="chives" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="chives" target="monkfish ">
+    <edge source="chives" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="chives" target="mushrooms, in general ">
@@ -39865,7 +39864,7 @@
     <edge source="lemon" target="mint, dried">
       <data key="d0">1</data>
     </edge>
-    <edge source="lemon" target="monkfish ">
+    <edge source="lemon" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="lemon" target="mushrooms, matsutake">
@@ -40360,7 +40359,7 @@
     <edge source="lobster" target="yuzu juice">
       <data key="d0">1</data>
     </edge>
-    <edge source="lobster" target="monkfish ">
+    <edge source="lobster" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="lobster" target="peas, in general ">
@@ -40663,7 +40662,7 @@
     <edge source="orange" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="orange" target="monkfish ">
+    <edge source="orange" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="orange" target="nectarines ">
@@ -41068,7 +41067,7 @@
     <edge source="potatoes" target="mint, in general">
       <data key="d0">5</data>
     </edge>
-    <edge source="potatoes" target="monkfish ">
+    <edge source="potatoes" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="potatoes" target="mushrooms, in general ">
@@ -41455,7 +41454,7 @@
     <edge source="red pepper flakes" target="mackerel">
       <data key="d0">1</data>
     </edge>
-    <edge source="red pepper flakes" target="monkfish ">
+    <edge source="red pepper flakes" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="red pepper flakes" target="mussels">
@@ -41857,7 +41856,7 @@
     <edge source="salmon" target="lentils">
       <data key="d0">20</data>
     </edge>
-    <edge source="salmon" target="monkfish ">
+    <edge source="salmon" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="salmon" target="oil, avocado">
@@ -42127,7 +42126,7 @@
     <edge source="shallots" target="mackerel">
       <data key="d0">5</data>
     </edge>
-    <edge source="shallots" target="monkfish ">
+    <edge source="shallots" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="shallots" target="mushrooms, in general ">
@@ -44074,7 +44073,7 @@
     <edge source="fennel seeds" target="lamb, in general">
       <data key="d0">5</data>
     </edge>
-    <edge source="fennel seeds" target="monkfish ">
+    <edge source="fennel seeds" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="fennel seeds" target="mussels">
@@ -44470,7 +44469,7 @@
     <edge source="mussels" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="mussels" target="monkfish ">
+    <edge source="mussels" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="mussels" target="mushrooms, chanterelles">
@@ -44821,7 +44820,7 @@
     <edge source="star anise" target="maple syrup">
       <data key="d0">1</data>
     </edge>
-    <edge source="star anise" target="monkfish ">
+    <edge source="star anise" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="star anise" target="oranges, in general">
@@ -45199,7 +45198,7 @@
     <edge source="chervil" target="lovage">
       <data key="d0">1</data>
     </edge>
-    <edge source="chervil" target="monkfish ">
+    <edge source="chervil" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="chervil" target="mushrooms, in general ">
@@ -45694,7 +45693,7 @@
     <edge source="tarragon" target="melon/ muskmelons, in general ">
       <data key="d0">1</data>
     </edge>
-    <edge source="tarragon" target="monkfish ">
+    <edge source="tarragon" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="tarragon" target="mushrooms, in general ">
@@ -46048,7 +46047,7 @@
     <edge source="chili powder" target="melon/ muskmelons, in general ">
       <data key="d0">1</data>
     </edge>
-    <edge source="chili powder" target="monkfish ">
+    <edge source="chili powder" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="chili powder" target="oil, sesame">
@@ -46108,7 +46107,7 @@
     <edge source="curry powder" target="lamb, in general">
       <data key="d0">5</data>
     </edge>
-    <edge source="curry powder" target="monkfish ">
+    <edge source="curry powder" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="curry powder" target="peanuts and peanut butter ">
@@ -46402,7 +46401,7 @@
     <edge source="leeks" target="mint, dried">
       <data key="d0">1</data>
     </edge>
-    <edge source="leeks" target="monkfish ">
+    <edge source="leeks" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="leeks" target="mushrooms, in general ">
@@ -46606,7 +46605,7 @@
     <edge source="lemongrass" target="miso and miso soup">
       <data key="d0">1</data>
     </edge>
-    <edge source="lemongrass" target="monkfish ">
+    <edge source="lemongrass" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="lemongrass" target="mushrooms, shiitake">
@@ -48115,7 +48114,7 @@
     <edge source="soy sauce" target="miso and miso soup">
       <data key="d0">1</data>
     </edge>
-    <edge source="soy sauce" target="monkfish ">
+    <edge source="soy sauce" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="soy sauce" target="mushrooms, in general ">
@@ -48871,7 +48870,7 @@
     <edge source="bacon" target="mache">
       <data key="d0">1</data>
     </edge>
-    <edge source="bacon" target="monkfish ">
+    <edge source="bacon" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="bacon" target="mushrooms, in general ">
@@ -49201,7 +49200,7 @@
     <edge source="bay leaf" target="mackerel">
       <data key="d0">1</data>
     </edge>
-    <edge source="bay leaf" target="monkfish ">
+    <edge source="bay leaf" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="bay leaf" target="mushrooms, in general ">
@@ -49507,7 +49506,7 @@
     <edge source="cider" target="cheese, colby">
       <data key="d0">1</data>
     </edge>
-    <edge source="cider" target="monkfish ">
+    <edge source="cider" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="cider" target="oatmeal / oats">
@@ -50008,7 +50007,7 @@
     <edge source="lemon thyme" target="mackerel">
       <data key="d0">5</data>
     </edge>
-    <edge source="lemon thyme" target="monkfish ">
+    <edge source="lemon thyme" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="lemon thyme" target="rice, arborio or carnaroli ">
@@ -51385,7 +51384,7 @@
     <edge source="saffron" target="mackerel">
       <data key="d0">1</data>
     </edge>
-    <edge source="saffron" target="monkfish ">
+    <edge source="saffron" target="monkfish">
       <data key="d0">5</data>
     </edge>
     <edge source="saffron" target="north african cuisine ">
@@ -51646,7 +51645,7 @@
     <edge source="vinegar" target="miso and miso soup">
       <data key="d0">1</data>
     </edge>
-    <edge source="vinegar" target="monkfish ">
+    <edge source="vinegar" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="vinegar" target="mushrooms, in general ">
@@ -52201,7 +52200,7 @@
     <edge source="artichokes" target="mackerel">
       <data key="d0">1</data>
     </edge>
-    <edge source="artichokes" target="monkfish ">
+    <edge source="artichokes" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="artichokes" target="oil, hazelnut">
@@ -52306,7 +52305,7 @@
     <edge source="arugula" target="liver, calf">
       <data key="d0">1</data>
     </edge>
-    <edge source="arugula" target="monkfish ">
+    <edge source="arugula" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="arugula" target="mushrooms, cremini">
@@ -52399,7 +52398,7 @@
     <edge source="bread crumbs" target="lamb, in general">
       <data key="d0">5</data>
     </edge>
-    <edge source="bread crumbs" target="monkfish ">
+    <edge source="bread crumbs" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="bread crumbs" target="mushrooms, in general ">
@@ -52750,7 +52749,7 @@
     <edge source="pancetta" target="mackerel">
       <data key="d0">1</data>
     </edge>
-    <edge source="pancetta" target="monkfish ">
+    <edge source="pancetta" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="pancetta" target="mushrooms, morels">
@@ -52819,7 +52818,7 @@
     <edge source="pesto" target="lamb, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="pesto" target="monkfish ">
+    <edge source="pesto" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="pesto" target="shrimp ">
@@ -53197,7 +53196,7 @@
     <edge source="sage" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="sage" target="monkfish ">
+    <edge source="sage" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="sage" target="mushrooms, in general ">
@@ -53734,7 +53733,7 @@
     <edge source="vinaigrette" target="lettuce, romaine">
       <data key="d0">1</data>
     </edge>
-    <edge source="vinaigrette" target="monkfish ">
+    <edge source="vinaigrette" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="vinaigrette" target="mushrooms, morels">
@@ -54100,7 +54099,7 @@
     <edge source="cilantro" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="cilantro" target="monkfish ">
+    <edge source="cilantro" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="cilantro" target="mushrooms, in general ">
@@ -54331,7 +54330,7 @@
     <edge source="clams" target="lovage">
       <data key="d0">1</data>
     </edge>
-    <edge source="clams" target="monkfish ">
+    <edge source="clams" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="clams" target="paprika, smoked">
@@ -54700,7 +54699,7 @@
     <edge source="watercress" target="lettuce, bibb ">
       <data key="d0">1</data>
     </edge>
-    <edge source="watercress" target="monkfish ">
+    <edge source="watercress" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="watercress" target="oranges, in general">
@@ -55393,7 +55392,7 @@
     <edge source="asparagus" target="mint, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="asparagus" target="monkfish ">
+    <edge source="asparagus" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="asparagus" target="mushrooms, in general ">
@@ -55795,7 +55794,7 @@
     <edge source="beer" target="lamb, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="beer" target="monkfish ">
+    <edge source="beer" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="beer" target="onions, in general">
@@ -56005,7 +56004,7 @@
     <edge source="chard" target="lamb, chops">
       <data key="d0">1</data>
     </edge>
-    <edge source="chard" target="monkfish ">
+    <edge source="chard" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="chard" target="mushrooms, chanterelles">
@@ -57058,7 +57057,7 @@
     <edge source="oregano" target="mint, dried">
       <data key="d0">1</data>
     </edge>
-    <edge source="oregano" target="monkfish ">
+    <edge source="oregano" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="oregano" target="mushrooms, in general ">
@@ -57313,7 +57312,7 @@
     <edge source="liver" target="onions, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="parmesan cheese" target="monkfish ">
+    <edge source="parmesan cheese" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="parmesan cheese" target="mushrooms, in general ">
@@ -57916,7 +57915,7 @@
     <edge source="monkfish" target="shrimp ">
       <data key="d0">1</data>
     </edge>
-    <edge source="squid" target="monkfish ">
+    <edge source="squid" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="squid" target="oil, avocado">
@@ -58057,7 +58056,7 @@
     <edge source="sausage" target="italian cuisine, southern">
       <data key="d0">1</data>
     </edge>
-    <edge source="sausage" target="monkfish ">
+    <edge source="sausage" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="sausage" target="paprika, in general">
@@ -58453,7 +58452,7 @@
     <edge source="paprika: smoked" target="rabbit ">
       <data key="d0">1</data>
     </edge>
-    <edge source="pernod" target="monkfish ">
+    <edge source="pernod" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="pernod" target="salmon ">
@@ -60808,7 +60807,7 @@
     <edge source="aioli" target="lamb, in general">
       <data key="d0">1</data>
     </edge>
-    <edge source="aioli" target="monkfish ">
+    <edge source="aioli" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="aioli" target="peppers, piquillo ">
@@ -60832,7 +60831,7 @@
     <edge source="korean cuisine" target="shrimp ">
       <data key="d0">1</data>
     </edge>
-    <edge source="romesco sauce" target="monkfish ">
+    <edge source="romesco sauce" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="shiso leaf" target="crab, soft-shell">
@@ -61222,7 +61221,7 @@
     <edge source="french cuisine, northern" target="pork: bacon">
       <data key="d0">1</data>
     </edge>
-    <edge source="pork: bacon" target="monkfish ">
+    <edge source="pork: bacon" target="monkfish">
       <data key="d0">1</data>
     </edge>
     <edge source="french cuisine, southern " target="pates">
@@ -61630,13 +61629,13 @@
     <edge source="popcorn" target="salt, truffle">
       <data key="d0">1</data>
     </edge>
-    <edge source="monkfish " target="caperberries">
+    <edge source="monkfish" target="caperberries">
       <data key="d0">1</data>
     </edge>
-    <edge source="monkfish " target="striped bass">
+    <edge source="monkfish" target="striped bass">
       <data key="d0">1</data>
     </edge>
-    <edge source="monkfish " target="swiss chard">
+    <edge source="monkfish" target="swiss chard">
       <data key="d0">1</data>
     </edge>
     <edge source="caperberries" target="saltiness">
