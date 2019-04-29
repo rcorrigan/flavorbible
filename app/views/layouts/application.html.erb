@@ -4,11 +4,15 @@
     <title>Flavorbible</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-
   </head>
 
   <body>
+  <%= link_to "Home Page", root_path, :class => "button btn btn-default" %>
+  Hello!
+  <div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+  </div>
+  <%= link_to "Home Page", root_path, :class => "button btn btn-info" %>
     <%= yield %>
   </body>
 </html>
