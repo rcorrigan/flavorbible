@@ -1,4 +1,6 @@
 class FlavorgraphsController < ApplicationController
+  autocomplete :ingredient, :id, limit: 5
+
   def new
     # Default, render new template
     #@input_ingredient = Ingredient.new(:flavor)
@@ -36,5 +38,4 @@ class FlavorgraphsController < ApplicationController
     @connected_ingredients = @connected_ingredients.reverse
 
   end
-
 end

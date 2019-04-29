@@ -21,8 +21,10 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
-# Use pgsearch for text field auto complete
-gem 'pg_search'
+# for text field auto complete
+gem 'autocomplete_rails'
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 
 # Use CoffeeScript for .coffee assets and views
