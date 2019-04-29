@@ -5,11 +5,11 @@ class FlavorgraphsController < ApplicationController
 
   def index
     # Default, render index template to display flavor graphs
+    query_ingredient = Ingredient.find("chicken")
+    @connected_ingredients = query_ingredient.neighbor20
   end
 
   def create
-    @query_ingredient = Ingredient.find("chicken")
-    @connected_ingredients = @query_ingredient
     redirect_to flavorgraphs_path
   end
 end
