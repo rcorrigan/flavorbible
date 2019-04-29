@@ -1,0 +1,18 @@
+%h1 Flavor Graph Display
+
+
+%table
+  %tbody
+    -# print each ingredient connected to the selected ingredient
+    - @connected_ingredients1.each do |ingredient|
+      %tr
+        %td= ingredient.id
+    - @connected_ingredients5.each do |ingredient|
+      %tr
+        %td= ingredient.id
+    - @connected_ingredients20.each do |ingredient|
+      %tr
+        %td= ingredient.id
+    - @connected_ingredients60.each do |ingredient|
+      %tr
+        %td= ingredient.id
