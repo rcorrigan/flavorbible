@@ -20,7 +20,9 @@ class FlavorgraphsController < ApplicationController
       ingredient = Ingredient.find(identifier.downcase)
       redirect_to flavorgraph_path(ingredient.id)
     else
-      redirect_to new_flavorgraph_path
+      flash[:notice] = "Ingredient: \"" + identifier.downcase + "\" not found."
+          redirect_to new_flavorgraph_path
+
     end
   end
 
