@@ -15,7 +15,10 @@ class FlavorgraphsController < ApplicationController
   end
 
   def create
-    ingredient = Ingredient.find(params[:id])
+    identifier = params[:flavor].to_s
+    identifier = identifier.sub("{\"flavor\"=>\"","")
+    identifier = identifier.sub("\"}", "")
+    ingredient = Ingredient.find(identifier.downcase)
     redirect_to flavorgraph_path(ingredient.id)
   end
 
