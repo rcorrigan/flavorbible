@@ -2,6 +2,7 @@ class FlavorgraphsController < ApplicationController
   def new
     # Default, render new template
     #@input_ingredient = Ingredient.new(:flavor)
+
   end
 
   def index
@@ -12,6 +13,7 @@ class FlavorgraphsController < ApplicationController
   end
 
   def create
+
     identifier = params[:flavor].to_s
     identifier = identifier.sub("{\"flavor\"=>\"","")
     identifier = identifier.sub("\"}", "")

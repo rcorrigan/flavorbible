@@ -3,4 +3,5 @@ class Ingredient
 
   id_property :id
   has_many :both, :relations, rel_class: :RelatedTo
+
 end
