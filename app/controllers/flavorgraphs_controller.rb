@@ -18,8 +18,13 @@ class FlavorgraphsController < ApplicationController
     identifier = params[:flavor].to_s
     identifier = identifier.sub("{\"flavor\"=>\"","")
     identifier = identifier.sub("\"}", "")
-    ingredient = Ingredient.find(identifier.downcase)
-    redirect_to flavorgraph_path(ingredient.id)
+
+    if Ingredient.exists?(identifier.downcase)
+      ingredient = Ingredient.find(identifier.downcase)
+      redirect_to flavorgraph_path(ingredient.id)
+    else
+      redirect_to new_flavorgraph_path
+    end
   end
 
   def show
