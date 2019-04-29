@@ -18,6 +18,5 @@
 - CONSTRAINT ON ( ingredient:Ingredient ) ASSERT ingredient.uuid IS UNIQUE
 :indexes: []
 :versions:
-- '20190427180607'
 - '20190427194508'
 - '20190427195909'
