@@ -2,8 +2,15 @@
 
 
 %table
+  %thead
+    %tr
+      %th Ingredient
+      %th Weight
+      %th Shared Neighbors
   %tbody
     -# print each ingredient connected to the selected ingredient
     - @connected_ingredients.each do |ingredient|
       %tr
-        %td= ingredient.id
+        %td= ingredient[0].id
+        %td= ingredient[1].weight
+        %td= ingredient[1].shared_neighbors

@@ -6,4 +6,11 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   resources :flavorgraphs
   root 'flavorgraphs#new'
+
+  resources :flavorgraphs do
+    get :autocomplete_ingredient_id, on: :collection
+  end
+  resources :ingredients do
+    get :autocomplete_ingredient_id, on: :collection
+  end
 end

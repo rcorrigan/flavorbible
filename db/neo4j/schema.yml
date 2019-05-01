@@ -16,7 +16,9 @@
   ) ASSERT `neo4j::migrations::schemamigration`.migration_id IS UNIQUE
 - CONSTRAINT ON ( ingredient:Ingredient ) ASSERT ingredient.id IS UNIQUE
 - CONSTRAINT ON ( ingredient:Ingredient ) ASSERT ingredient.uuid IS UNIQUE
+- CONSTRAINT ON ( relatedto:RelatedTo ) ASSERT relatedto.uuid IS UNIQUE
 :indexes: []
 :versions:
 - '20190427194508'
 - '20190427195909'
+- '20190429182653'

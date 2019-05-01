@@ -4,7 +4,5 @@
 
   = label :flavor, :name, 'Flavor'
   %br
-  = text_field :flavor, 'flavor'
-  %br
-  %br
+  = text_field :flavor, 'flavor', data: { autocomplete: autocomplete_ingredient_id_ingredients_path }
   = submit_tag 'See New Flavor Graph'
