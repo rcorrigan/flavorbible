@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.4'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
+gem 'jquery-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
@@ -25,6 +28,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'autocomplete_rails'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'gon'
 
 
 # Use CoffeeScript for .coffee assets and views
@@ -71,3 +75,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>=2.1.0'
+gem 'autoprefixer-rails'
+gem 'bootstrap'
+gem 'jquery-rails'
+gem 'simple_form'
+gem 'popper_js'
+gem 'tether-rails'
