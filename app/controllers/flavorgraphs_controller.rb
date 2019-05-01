@@ -37,5 +37,13 @@ class FlavorgraphsController < ApplicationController
     @connected_ingredients = @connected_ingredients.sort_by { |ent| [ent[1].weight,ent[1].shared_neighbors]}
     @connected_ingredients = @connected_ingredients.reverse
 
+    @graphData={}
+    @graphData["nodes"]=[{"id":@query_ingredient.id}]
+    @graphData["links"]=[]
+    @connected_ingredients.each do |i|
+      @graphData["links"].append({"source":@query_ingredient.id,"target":i[0].id,"value":100/(i[1].weight+i[1].shared_neighbors).to_f})
+      @graphData["nodes"].append({"id":i[0].id})
+    end
+    gon.graphData = @graphData.to_json
   end
 end

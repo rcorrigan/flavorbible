@@ -28,6 +28,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'autocomplete_rails'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'gon'
 
 
 # Use CoffeeScript for .coffee assets and views

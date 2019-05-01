@@ -1,3 +1,8 @@
+%head
+  %script{:src=>"//unpkg.com/3d-force-graph"}
+  %script{:src=>"//unpkg.com/three"}
+  %script{:src=>"//unpkg.com/three-spritetext"}
+
 %h1{:align => "center"} Flavor Graph for #{(@query_ingredient.id).capitalize}
 
 %table
@@ -13,3 +18,43 @@
         %td= ingredient[0].id
         %td= ingredient[1].weight
         %td= ingredient[1].shared_neighbors
+
+%div{:id=>"3d-graph"}
+%script
+  :plain
+    const gData = JSON.parse(gon.graphData)
+    const Graph = ForceGraph3D()
+      (document.getElementById('3d-graph'))
+        .graphData(gData)
+        .nodeLabel('id')
+        .enableNodeDrag(false)
+        .linkLabel('value')
+        .linkOpacity(1)
+        .linkThreeObject(link => {
+          // create line object
+          const lineObj = new THREE.Line(
+            new THREE.BufferGeometry(),
+            new THREE.MeshLambertMaterial({
+              color: '#f0f0f0',
+              transparent: true,
+              opacity: 1
+            })
+          );
+          // add text sprite as child
+          const sprite = new SpriteText(`${link.value}`);
+          sprite.color = 'lightgrey';
+          sprite.textHeight = 1.5;
+          lineObj.add(sprite);
+          return lineObj;
+        })
+        .linkPositionUpdate((obj, { start, end }) => {
+          const middlePos = Object.assign(...['x', 'y', 'z'].map(c => ({
+            [c]: start[c] + (end[c] - start[c]) / 2 // calc middle point
+          })));
+          const textSprite = obj.children[0];
+          // Position link text
+          Object.assign(textSprite.position, middlePos);
+        })
+        .d3Force('link')
+        .distance(link => link.value);
+
