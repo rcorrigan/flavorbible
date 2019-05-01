@@ -1,8 +1,8 @@
-%h1 Create New Flavor Graph
+%h1{:align => "center"} Create New Flavor Graph
 
 = form_tag flavorgraphs_path do
 
-  = label :flavor, :name, 'Flavor'
+  = label :flavor, :name, 'Insert the name of a food or spice.'
   %br
   = text_field :flavor, 'flavor', data: { autocomplete: autocomplete_ingredient_id_ingredients_path }
   = submit_tag 'See New Flavor Graph'
