@@ -1,5 +1,6 @@
 class IngredientsController < ApplicationController
   before_action :set_ingredient, only: [:show, :edit, :update, :destroy]
+  autocomplete :ingredient, :id, limit: 5
 
   # GET /ingredients
   # GET /ingredients.json
