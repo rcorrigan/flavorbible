@@ -5,6 +5,10 @@
 
 %h1{:align => "center"} Flavor Graph for #{(@query_ingredient.id).capitalize}
 
+%div{:id=>"3d-graph"}
+
+%h2{:align => "left"} Data for generating Flavor Graph
+
 %table
   %thead
     %tr
@@ -19,7 +23,7 @@
         %td= ingredient[1].weight
         %td= ingredient[1].shared_neighbors
 
-%div{:id=>"3d-graph"}
+
 %script
   :plain
     const gData = JSON.parse(gon.graphData)
@@ -28,6 +32,7 @@
         .graphData(gData)
         .nodeLabel('id')
         .enableNodeDrag(false)
+        .d3VelocityDecay(0.8)
         .linkLabel('value')
         .linkOpacity(1)
         .linkThreeObject(link => {
