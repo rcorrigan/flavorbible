@@ -12,7 +12,7 @@ gem 'rails', '~> 5.2.3'
 gem 'haml'
 gem 'haml-rails', '>= 0.3.4', :group => :development
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+#gem 'sqlite3'
 # Neo4J
 gem 'neo4j','~> 9.2.0'
 # Use Puma as the app server
@@ -71,6 +71,11 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+end
+
+group :production do
+  gem 'pg', '~> 0.21'
+  gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
