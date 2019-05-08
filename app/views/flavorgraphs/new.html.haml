@@ -6,3 +6,16 @@
   %br
   = text_field :flavor, 'flavor', data: { autocomplete: autocomplete_ingredient_id_ingredients_path }
   = submit_tag 'See New Flavor Graph'
+
+%h2{:align => "left"} Most Popular Flavors
+
+%table
+  %thead
+    %tr
+      %th Ingredient
+      %th Number of Connections
+  %tbody
+    - @popular_ingredients.each do |ingredient|
+      %tr
+        %td= ingredient.id
+        %td= ingredient.neighbor_count

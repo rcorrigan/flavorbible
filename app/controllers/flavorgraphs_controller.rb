@@ -4,6 +4,7 @@ class FlavorgraphsController < ApplicationController
   def new
     # Default, render new template
     #@input_ingredient = Ingredient.new(:flavor)
+    @popular_ingredients = Ingredient.all.order_by("n.neighbor_count DESC").limit(10)
 
   end
 
