@@ -1,4 +1,14 @@
-%h1 Flavor Graph Community
+%head
+  %script{:src=>"//unpkg.com/3d-force-graph"}
+  %script{:src=>"//unpkg.com/three"}
+  %script{:src=>"//unpkg.com/three-spritetext"}
+
+%h1{:align => "center"} Flavor Graph for Community #{params[:com]}
+
+
+= button_to "Return to Home Page", flavorgraphs_path
+
+%div{:id=>"3d-graph"}
 
 %script
   :plain
@@ -66,5 +76,6 @@
       catch(TypeError){
       }
     }
+
 
 
