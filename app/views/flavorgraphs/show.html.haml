@@ -16,6 +16,7 @@
     %tr
       %th Ingredient
       %th Weight
+      %th Number of Neighbors
       %th Shared Neighbors
   %tbody
     -# print each ingredient connected to the selected ingredient
@@ -23,6 +24,7 @@
       %tr
         %td= link_to "#{ingredient[0].id}", flavorgraph_path(ingredient[0].id)
         %td= ingredient[1].weight
+        %td= ingredient[0].neighbor_count
         %td= ingredient[1].shared_neighbors
 
 
