@@ -4,14 +4,13 @@ class FlavorgraphsController < ApplicationController
   def new
     # Default, render new template
     #@input_ingredient = Ingredient.new(:flavor)
-    @popular_ingredients = Ingredient.all.order_by("n.neighbor_count DESC").limit(10)
-
+    @popular_ingredients = Ingredient.all
+    @popular_ingredients = @popular_ingredients.sort_by { |ent| [Integer(ent.neighbor_count)]}.reverse()[0..9]
   end
 
   def index
     # Default, render index template to display flavor graphs
-    query_ingredient = Ingredient.find("chicken")
-    @connected_ingredients = query_ingredient.neighbor
+
 
   end
 

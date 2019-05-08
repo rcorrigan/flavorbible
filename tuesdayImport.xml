@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-<key id="neighbor_count" for="node" attr.name="neighbor_count"/>
+<key id="neighbor_count" for="node" attr.name="neighbor_count" attr.type="integer"/>
 <key id="migration_id" for="node" attr.name="migration_id"/>
 <key id="label" for="node" attr.name="label"/>
 <key id="id" for="node" attr.name="id"/>
 <key id="community" for="node" attr.name="community"/>
-<key id="shared_neighbors" for="edge" attr.name="shared_neighbors"/>
-<key id="weight" for="edge" attr.name="weight"/>
+<key id="shared_neighbors" for="edge" attr.name="shared_neighbors" attr.type="integer"/>
+<key id="weight" for="edge" attr.name="weight" attr.type="integer"/>
 <key id="label" for="edge" attr.name="label"/>
 <graph id="G" edgedefault="directed">
 <node id="n14229"></node>
