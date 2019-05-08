@@ -5,6 +5,8 @@
 
 %h1{:align => "center"} Flavor Graph for #{(@query_ingredient.id).capitalize}
 
+= button_to "Return to Home Page", flavorgraphs_path
+
 %div{:id=>"3d-graph"}
 
 %h2{:align => "left"} Data for generating Flavor Graph
@@ -19,22 +21,42 @@
     -# print each ingredient connected to the selected ingredient
     - @connected_ingredients.each do |ingredient|
       %tr
-        %td= ingredient[0].id
+        %td= link_to "#{ingredient[0].id}", flavorgraph_path(ingredient[0].id)
         %td= ingredient[1].weight
         %td= ingredient[1].shared_neighbors
 
 
 %script
   :plain
-    const gData = JSON.parse(gon.graphData)
-    const Graph = ForceGraph3D()
-      (document.getElementById('3d-graph'))
+    var gData = JSON.parse(gon.graphData);
+    var elem = document.getElementById('3d-graph');
+    var highlightNodes = [];
+    var highlightLink = null;
+    var Graph = ForceGraph3D()
+      (elem)
         .graphData(gData)
         .nodeLabel('id')
+        .nodeColor(node => highlightNodes.indexOf(node) === -1 ? 'rgba(0,255,255,0.6)' : 'rgb(255,0,0,1)')
         .enableNodeDrag(false)
         .d3VelocityDecay(0.8)
         .linkLabel('value')
         .linkOpacity(1)
+        .linkWidth(link => link === highlightLink ? 4 : 1)
+        .linkDirectionalParticles(link => link === highlightLink ? 4 : 0)
+        .linkDirectionalParticleWidth(4)
+        .onNodeHover(node => {
+          // no state change
+          if ((!node && !highlightNodes.length) || (highlightNodes.length === 1 && highlightNodes[0] === node)) return;
+          highlightNodes = node ? [node] : [];
+          updateGeometries();
+        })
+        .onLinkHover(link => {
+          // no state change
+          if (highlightLink === link) return;
+          highlightLink = link;
+          highlightNodes = link ? [link.source, link.target] : [];
+          updateGeometries();
+        })
         .linkThreeObject(link => {
           // create line object
           const lineObj = new THREE.Line(
@@ -62,4 +84,12 @@
         })
         .d3Force('link')
         .distance(link => link.value);
+
+    function updateGeometries(){
+      try{
+        Graph.nodeRelSize(4);
+      }
+      catch(TypeError){
+      }
+    }
 

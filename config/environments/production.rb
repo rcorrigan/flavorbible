@@ -1,3 +1,5 @@
+require 'neo4j/railtie'
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
@@ -82,6 +84,10 @@ Rails.application.configure do
   # Use a different logger for distributed setups.
   # require 'syslog/logger'
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
+
+  # For Heroku
+  config.neo4j.session.type = :http
+  config.neo4j.session.path = ENV["https://app132877434-7MLHUK:b.5fcxeYNl53Na.zVtqdfpsFuwLnckH@hobby-kickpbghpjjagbkeeiichdcl.dbs.graphenedb.com:24780"]
 
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
