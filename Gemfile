@@ -26,7 +26,6 @@ gem 'uglifier', '>= 1.3.0'
 
 # for text field auto complete
 gem 'autocomplete_rails'
-gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'gon'
 
@@ -76,18 +75,14 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '~> 0.21'
   gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'bootstrap-sass', '~> 3.4.1'
-gem 'sassc-rails', '>=2.1.0'
 gem 'autoprefixer-rails'
 gem 'bootstrap'
-gem 'jquery-rails'
 gem 'simple_form'
 gem 'popper_js'
 gem 'tether-rails'
