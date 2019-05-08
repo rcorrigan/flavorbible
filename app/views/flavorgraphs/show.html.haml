@@ -16,16 +16,18 @@
     %tr
       %th Ingredient
       %th Weight
-      %th Number of Neighbors
       %th Shared Neighbors
+      %th Number of Neighbors
+      %th Community
   %tbody
     -# print each ingredient connected to the selected ingredient
     - @connected_ingredients.each do |ingredient|
       %tr
         %td= link_to "#{ingredient[0].id}", flavorgraph_path(ingredient[0].id)
         %td= ingredient[1].weight
-        %td= ingredient[0].neighbor_count
         %td= ingredient[1].shared_neighbors
+        %td= ingredient[0].neighbor_count
+        %td= ingredient[0].community
 
 
 %script

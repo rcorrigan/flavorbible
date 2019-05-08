@@ -10,7 +10,7 @@ class FlavorgraphsController < ApplicationController
 
   def index
     # Default, render index template to display flavor graphs
-
+    redirect_to new_flavorgraph_path
 
   end
 
@@ -34,7 +34,7 @@ class FlavorgraphsController < ApplicationController
     # Render show template - may need to move index actions here to help with id issue
     @query_ingredient = Ingredient.find(params[:id])
     @connected_ingredients = @query_ingredient.relations.zip(@query_ingredient.relations.rels)
-    @connected_ingredients = @connected_ingredients.sort_by { |ent| [ent[1].weight,ent[1].shared_neighbors]}
+    @connected_ingredients = @connected_ingredients.sort_by { |ent| [ent[1].weight,ent[1].shared_neighbors,ent[0].neighbor_count,ent[0].community]}
     @connected_ingredients = @connected_ingredients.reverse
 
     @graphData={}
