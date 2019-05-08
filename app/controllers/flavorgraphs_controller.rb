@@ -10,8 +10,21 @@ class FlavorgraphsController < ApplicationController
 
   def index
     # Default, render index template to display flavor graphs
-    redirect_to new_flavorgraph_path
+    @com = Ingredient.all
+    query=Neo4j::ActiveBase.current_session.query("MATCH (n)-[con]-(t) where n.community = '7' and t.community = '7' return n,con,t")
+    @graphData = {}
+    @graphData["nodes"] = []
+    @graphData["links"] = []
+    @com.each do |i|
+      if i["community"] == 7
+        @graphData["nodes"].append({"id":i.id})
+      end
+    end
 
+    query.rows.each do |ent|
+      @graphData["links"].append({"source": ent[0].id, "target":ent[2].id, "value":100/(Integer(ent[1].properties[:weight])+Integer(ent[1].properties[:shared_neighbors])).to_f})
+    end
+    gon.graphData = @graphData.to_json
   end
 
   def create
