@@ -1,0 +1,18 @@
+%h2 Select Community for Visualization
+= form_for coms_path do
+  %p
+    %select{ :name => "select_community" }
+      %option{:number => 1}= "Community 1"
+      %option{:number => 2}= "Community 2"
+      %option{:number => 3}= "Community 3"
+      %option{:number => 4}= "Community 4"
+      %option{:number => 5}= "Community 5"
+      %option{:number => 6}= "Community 6"
+      %option{:number => 7}= "Community 7"
+      %option{:number => 8}= "Community 8"
+      %option{:number => 9}= "Community 9"
+      %option{:number => 10}= "Community 10"
+      %option{:number => 11}= "Community 11"
+      %option{:number => 12}= "Community 12"
+  %p
+    = submit_tag "Show Community"

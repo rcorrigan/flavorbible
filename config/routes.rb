@@ -7,6 +7,11 @@ Rails.application.routes.draw do
   resources :flavorgraphs
   root 'flavorgraphs#new'
 
+  get '/flavorgraphs/:number', to: 'flavorgraphs#display_community'
+  post '/flavorgraphs/', to: 'flavorgraphs#create_community'
+
+  resources :coms
+
   resources :flavorgraphs do
     get :autocomplete_ingredient_id, on: :collection
   end

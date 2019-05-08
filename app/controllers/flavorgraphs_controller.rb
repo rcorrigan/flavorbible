@@ -46,4 +46,14 @@ class FlavorgraphsController < ApplicationController
     end
     gon.graphData = @graphData.to_json
   end
+
+  def create_community
+    redirect_to '/flavorgraphs/display_community/7'
+  end
+
+  def display_community
+    @com_number = params[:number]
+    @com = {}
+  end
+
 end
