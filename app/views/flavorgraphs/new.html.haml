@@ -17,7 +17,7 @@
   %tbody
     - @popular_ingredients.each do |ingredient|
       %tr
-        %td= ingredient.id
+        %td= link_to "#{ingredient.id}", flavorgraph_path(ingredient.id)
         %td= ingredient.neighbor_count
 %br
 =button_to "Browse Communities", "/coms"

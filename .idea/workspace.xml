@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31aa3e31-5673-4b50-8b97-086d0e7118ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flavorbible.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flavorbible.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/flavorgraphs_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/flavorgraphs_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/coms/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/coms/index.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/flavorgraphs/new.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/flavorgraphs/new.html.haml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,17 +45,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/flavorgraphs/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="3" selection-end-column="47" />
+            <state relative-caret-position="268">
+              <caret line="25" column="78" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/flavorgraphs_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="24" column="112" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="112" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/flavorgraphs_controller.rb">
+        <entry file="file://$PROJECT_DIR$/app/views/flavorgraphs/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/flavorgraphs/display_community.html.haml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/coms_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/coms/index.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -94,7 +125,6 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/ingredients_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/flavorgraphs.coffee" />
-        <option value="$PROJECT_DIR$/app/views/flavorgraphs/new.html.haml" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.4.4/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets/jquery-ui/autocomplete.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
@@ -107,6 +137,8 @@
         <option value="$PROJECT_DIR$/app/views/flavorgraphs/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/flavorgraphs/index.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/flavorgraphs_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/coms/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/flavorgraphs/new.html.haml" />
       </list>
     </option>
   </component>
@@ -164,6 +196,13 @@
               <item name="flavorbible" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flavorbible" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flavorbible" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="coms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flavorbible" type="b2602c69:ProjectViewProjectNode" />
@@ -340,7 +379,7 @@
       <workItem from="1556386664124" duration="11912000" />
       <workItem from="1556559255018" duration="20364000" />
       <workItem from="1556746110557" duration="17618000" />
-      <workItem from="1557273828265" duration="8899000" />
+      <workItem from="1557273828265" duration="10012000" />
     </task>
     <task id="LOCAL-00001" summary="cypher code for calculating shared neighbors metric">
       <created>1556383101437</created>
@@ -524,11 +563,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557355508775</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Feature: communities can now be displayed (hardcoded only)">
+      <created>1557357348589</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1557357348589</updated>
+    </task>
+    <task id="LOCAL-00028" summary="updated a view">
+      <created>1557358249289</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1557358249289</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74778000" />
+    <option name="totallyTimeSpent" value="75891000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,12 +596,12 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19063005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19063005" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32739726" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32739726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -571,7 +624,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added ingredients model+controller" />
     <MESSAGE value="some other ingredient view stuff" />
     <MESSAGE value="more fixy stuff I think" />
     <MESSAGE value="a couple more things that may be broken" />
@@ -596,10 +648,11 @@
     <MESSAGE value="formatting change" />
     <MESSAGE value="hey looks a commits" />
     <MESSAGE value="Feature: communities can now be displayed (hardcoded only)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: communities can now be displayed (hardcoded only)" />
+    <MESSAGE value="updated a view" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated a view" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/flavorbible@Development__flavorbible.rcov" NAME="Development: flavorbible Coverage Results" MODIFIED="1557357073730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="flavorbible" />
+    <SUITE FILE_PATH="coverage/flavorbible@Development__flavorbible.rcov" NAME="Development: flavorbible Coverage Results" MODIFIED="1557500667710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="flavorbible" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/flavorgraph/new.html.erb" />
@@ -705,13 +758,6 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/flavorgraphs.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/flavorgraphs/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -808,17 +854,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/flavorgraphs/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/flavorgraphs/display_community.html.haml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/coms_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="47" />
+        <state relative-caret-position="150">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/coms/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/flavorgraphs_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="217">
+          <caret line="24" column="112" selection-start-line="24" selection-start-column="112" selection-end-line="24" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/flavorgraphs/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="25" column="78" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/flavorgraphs/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
         </state>
       </provider>
     </entry>
